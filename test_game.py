@@ -8,4 +8,3 @@ class TestingPingPong(TestCase):
         
         self.assertEqual(paddle.shape(), "square")
         self.assertEqual(paddle.color(), ('white', 'white'))
-        self.assertTrue(False)
